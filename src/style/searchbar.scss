@@ -1,0 +1,40 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3A4374;
+    gap: 1rem;
+    border-radius: 5px;
+    height: 40px; 
+    margin-bottom: 30px;
+    
+    img {
+        width: 32px;
+        height: 32px;
+    }
+
+    input {
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: white;
+        background-color: transparent;
+    }
+    
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        margin-right: .5rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+
+input:focus {
+    border-bottom: 2px solid whitesmoke;
+}

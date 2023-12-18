@@ -1,0 +1,25 @@
+.comments-container {
+    width: 100%;
+    margin-top: 25px;
+    background-color: white;
+    padding: 32px;
+    border-radius: 10px;
+
+    .comments-container-header {
+        color: #3A4374;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    .comment-with-reply {
+        position: relative;
+
+        .comment-side-border {
+            position: absolute;
+            left: 1.25rem;
+            width: 2px;
+            background-color: gray;
+            opacity: .25;
+        }
+    }
+}

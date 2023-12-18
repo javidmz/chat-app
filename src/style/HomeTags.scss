@@ -1,0 +1,27 @@
+.home-tags {
+    width: 255px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 15px;
+    border-radius: 10px;
+
+    .home-tag {
+        display: inline;
+        padding: 7px 15px;
+        border-radius: 7px;
+        background: #F2F4FF;
+        color: #4661E6;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all .2s ease-in;
+    }
+
+    .selected {
+        background: #4661E6;
+        color: white;
+    }
+}

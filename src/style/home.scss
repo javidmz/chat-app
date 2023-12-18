@@ -1,0 +1,60 @@
+.home {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    .home-header {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        position: relative;
+
+        img {
+            border-radius: 10px;
+        }
+
+        .home-img-ad {
+            position: absolute;
+            top: 65px;
+            left: 30px;
+            color: #FFF;
+            font-size: 1.25rem;
+            font-weight: 700;
+
+            div:nth-child(2) {
+                font-size: 0.9375rem;
+                font-weight: 500;
+                opacity: 0.75;
+            }
+        }
+    }
+
+    .home-main {
+        width: calc(100% - 290px);
+    }
+}
+
+.login-link {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    button {
+        outline: none;
+        border: none;
+        padding: .8rem 2rem;
+        border-radius: 0.625rem;
+        background: #4661E6;
+        color: #F2F4FE;
+        font-size: 0.875rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all .3s ease-in;
+    }
+
+    button:disabled, button:hover {
+        background-color: #7C91F9;
+    }
+}

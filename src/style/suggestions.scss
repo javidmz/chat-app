@@ -1,0 +1,62 @@
+.suggestion-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A4374;
+    align-items: center;
+    height: 65px;
+    border-radius: 10px;
+    
+    .suggestion-info {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            height: 25px;
+            margin-left: 1rem;
+        }
+
+        .suggestion-sort-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            height: 1.25rem;
+            color: gray;
+            position: relative;
+            transition: all .3s ease-in;
+
+            > div {
+                height: 1.25rem;
+            }
+
+            > div:first-child {
+                color: #F2F4FE;
+                font-size: 0.875rem;
+                font-weight: 400;
+            }
+
+            > div:last-child {
+                color: #F2F4FE;
+                font-size: 0.875rem;
+                font-weight: 700;
+            }
+        }
+    }
+    
+    .suggestion-btn {
+        height: 55%;
+        width: 150px;
+        background-color: #ad1fea;
+        color: white;
+        margin-right: 1rem;
+        border-radius: 7px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+    }
+
+    .suggestion-btn:hover {
+        opacity: .75;
+    }
+}
